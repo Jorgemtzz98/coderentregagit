@@ -1,0 +1,106 @@
+
+body {
+    background:  radial-gradient(circle, #fff, #bbb);
+}
+.imgindex{
+     display: block;
+     width: 50%;
+}
+
+
+ul {
+    list-style: none ;
+}
+h1 {
+    font-family: 'Orelega One', sans-serif;
+}
+
+header {
+    background: radial-gradient(bottom, #bbb, #333);
+}
+
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+  
+}
+
+nav ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+
+
+}   
+
+
+.encdiv  {
+    display: flex;
+    flex-direction: row ;
+}
+
+.search {
+    display: flex;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+}
+ul li :hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.formcontact{
+    display: block;
+    }
+.formcontact--submit  {
+    width: 32px;
+}
+
+.imgmant {
+    width: 350px;
+    
+}
+main p {
+    padding: 10px;
+    margin-left: 32px;
+    background-color: rgb(180, 138, 83) ;
+    border-color: #000;
+    border-radius: 10px;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0%;
+
+}
+@media only screen and (min-width:450px) {
+    .area{
+        display: grid;
+        
+    }
+    .mainitem {
+        padding: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1fr;
+    }
+    .imgindex {
+        size: 35%;
+    }
+
+    
+}
