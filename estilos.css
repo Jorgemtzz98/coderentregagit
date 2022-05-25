@@ -53,11 +53,22 @@ footer ul li {
 ul li a {
     color: #000;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+
 ul li :hover {
     background-color:rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(23, 23, 23);
+    font-family: 'Orelega One', sans-serif;
+    transition: color 2s;
 }
+ul li a {
+    transition: color 3s ;
+}
+
+
 .formcontact{
     display: block;
     }
